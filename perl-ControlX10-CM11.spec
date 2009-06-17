@@ -61,6 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README README.txt
 %{perl_vendorlib}/ControlX10/*.pm
-%{perl_vendorlib}/ControlX10/CM11
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
