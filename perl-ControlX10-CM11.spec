@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	ControlX10
 %define	pnam	CM11
 Summary:	ControlX10::CM11 - Perl extension for X10 'ActiveHome' Controller
